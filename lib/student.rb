@@ -62,5 +62,5 @@ end
       SELECT * FROM students WHERE grade = 9
       SQL
 
-      DB[:conn].execute(sql).count
+      DB[:conn].execute(sql).size
   end
